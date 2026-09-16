@@ -20,12 +20,16 @@ body {
 
 font[size="7"], font[size="6"], font[size="5"] {
   font-family: 'Sonsie One', cursive;
-  color: #2a2a2a;
+  color: #e2e2e2;
 }
 
 p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
+}
+
+p {
+  color:white;
 }
 
 font[size="7"] {
@@ -52,7 +56,7 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: #0c714f;
 }
 
 article, footer, .secondary {
@@ -89,7 +93,7 @@ div[class="nav"] a {
   font-size: 2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 div[class="nav"] .search {
@@ -173,7 +177,7 @@ audio {
 /* Comments styling */
 
 .comments {
-  background-color: #def;
+  background-color: rgb(55, 89, 73);
   padding: 10px;
 }
 

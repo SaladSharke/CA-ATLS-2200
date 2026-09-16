@@ -35,6 +35,7 @@
     <main>
       <article>
         <font size="6">The trouble with Bears</font>
+        <p>
         <br><br>
         By Evan Wild
         <br><br>
@@ -48,6 +49,8 @@
         <br><br>
         Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.
         <br><br>
+        </p>
+        <!-- Make this useable for screen readers !!? -->
         <table>
           <thead>
             <tr>
@@ -80,14 +83,15 @@
         </table>
 
         <font size="5">Habitats and Eating habits</font>
+        <p>
         <br><br>
         Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.
         <br><br>
-        <img src="media/wild-bear.jpg">
+        <img src="media/wild-bear.jpg" alt="A brown bear in a river">
         <br><br>
         Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.
         <br><br>
-        <img src="media/urban-bear.jpg">
+        <img src="media/urban-bear.jpg" alt="A bear snarling behind a fence">
         <br><br>
         Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.
         <br><br>
@@ -97,19 +101,29 @@
         <br><br>
         The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.
         <br><br>
+        </p>
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
 
-        <aside>
 
-          <font size="5">About the author</font>
+        <!-- I am trying to make a dropdown that reads a transcript for screen readers, it keeps registering its self to the comments dropdown below it for some reason, I am not experienced enough to say why-->
+         <div class="show-hide">Show Transcript</div>
+        <div class="comment-wrapper">
+            <p>Transcript:</p>
+        </div>
+
+        <aside>
+        <br><br>
+        <font size="5">About the author</font>
+        <p>
         <br><br>
           Evan Wild is an unemployed plumber from Doncaster, who has been really "in to" wildlife since childhood. He once went to Chester Zoo on holiday, but got ill after eating a doner kebab.
         <br><br>
           He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.
+        </p>
 
         </aside>
         <section class="comments">
