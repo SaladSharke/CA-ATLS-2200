@@ -1,0 +1,20 @@
+The color and typography choices were inspired by the brutalist architecture of the ATLAS 
+building. The base color was sampled from a photo of the ATLAS building, and a palette was 
+derived from that using a palette generator. We picked a palette with greens inspired by a 
+proposition for an official City of Boulder color palette. The browns and greens feel “authentic” 
+because they were directly inspired by the ATLAS building (which is where the BTU lab resides) 
+and the colors of the mountains behind CU. Accessibility was considered in every step of 
+planning colors and font choice; every single color in our palette was run through the WCAG 
+tester against our chosen background color to check for at least AA contrast levels, and the font 
+was chosen for being easy-to-read while still being professional. Creating good contrast without 
+ruining the theme of the website was difficult, there were several times where we had to start 
+with a completely new palette or base color because the ones we were working with had 
+obscenely low (sometimes as low as 1.5) contrast. I personally was shocked at how fine a line 
+had to be walked between artistic expression and accessibility, but the lesson learned there is to 
+simply plan for accessibility as you’re coming up with concepts for a design (which is the 
+practice we followed during this project, and it worked in the end). This system of development 
+might be able to be refined a bit more by starting with known contrasting colors and accessible 
+design, instead of picking whatever we want and reworking it into being accessible. Trying to 
+retrofit existing designs into accessibility isn’t super flexible, and starting with accessible options 
+and retooling them to be more artistic (effectively going the opposite way) would make things a 
+bit easier.
