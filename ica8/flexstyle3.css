@@ -18,9 +18,10 @@ li {
 }
 
 ul {
-  /* Add styles here */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 li {
-  /* Add styles here */
+  flex: auto; /* I think this functions */
 }
