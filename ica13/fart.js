@@ -56,6 +56,21 @@ class Ball {
     this.y += this.velY;
   }
 
+  // if collision detected, change ball color
+  collisionDetect() {
+    for (const ball of balls) {
+      if (this !== ball) {
+        const dx = this.x - ball.x;
+        const dy = this.y - ball.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < this.size + ball.size) {
+          ball.color = this.color = randomRGB();
+        }
+      }
+    }
+  }
+
 }
 
 const balls = []; // amount of balls (stored!)
@@ -83,6 +98,7 @@ function loop() { // looping ball generation, ie continuously generating ballz
   for (const ball of balls) {
     ball.draw();
     ball.update();
+    ball.collisionDetect(); // kinda liked it with how simple it was before we added this
   }
 
   requestAnimationFrame(loop);
