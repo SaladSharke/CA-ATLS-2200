@@ -60,7 +60,7 @@ class Ball {
 
 const balls = []; // amount of balls (stored!)
 
-while (balls.length < 25) { // if want more balls change the 25 here ("if you want 374 balls you can have them lmao")
+while (balls.length < 25) { // if want more balls change the 25 here ("if you want 374 balls you can have them lmao") (idk if I can run 100 ballz)
   const size = random(10, 20);
   const ball = new Ball(
     // ball position always drawn at least one ball width
@@ -88,4 +88,4 @@ function loop() { // looping ball generation, ie continuously generating ballz
   requestAnimationFrame(loop);
 }
 
-loop() // yo thats actually really cool
+loop() // yo thats actually really cool, has issue with loading in small window then expanding into big window <-- as seen in class
