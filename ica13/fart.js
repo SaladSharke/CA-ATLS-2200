@@ -105,3 +105,5 @@ function loop() { // looping ball generation, ie continuously generating ballz
 }
 
 loop() // yo thats actually really cool, has issue with loading in small window then expanding into big window <-- as seen in class
+// other collisions would be copying and modifying the vector data code for the balls to then change velocities based on collisions rather than colors
+// otherwise this is complete! 11/10/26 :: 10:24AM
